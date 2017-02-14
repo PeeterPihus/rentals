@@ -8,7 +8,7 @@ if (!@include_once("vendor/autoload.php")) {
 }
 
 include __DIR__ . '/system/functions.php';
-
+ 
 // Load config
 if (file_exists('config.php')) {
     include 'config.php';
